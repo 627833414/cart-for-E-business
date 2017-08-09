@@ -1,0 +1,137 @@
+/*公共部分*/
+.w{
+    width: 1002px;
+    height: auto;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+body,button,h1,h2,h3,h4,h5,h6,input,li,p,ul,span{
+    margin:0;padding:0
+}
+/*container部分*/
+.container{
+    margin-top: 30px;
+}
+/*header部分*/
+.header,.header a{
+    color: grey;
+    font-size: 18px;
+}
+.header{
+    margin-bottom: 15px;
+}
+/*content部分*/
+.content ul{
+    list-style: none;
+}
+.content_2{
+    border: 1px solid #eeeeee;
+}
+.content_1 ul{
+    width: 100%;
+    display: inline-block;
+    background: #eeeeee;
+}
+.content_1 ul li{
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.content_1 ul li:nth-child(1){
+    width: 250px;
+}
+.content_1 ul li:nth-last-child(-n+5){
+    width: 150px;
+}
+/*content_2通用部分start*/
+.content_2 ul>li{
+    width: 100%;
+    height: 120px;
+    list-style: none;
+}
+.content_2 ul li ul li{
+    float: left;
+}
+.content_2 ul li ul li:nth-child(1){
+    width: 250px;
+    line-height: 120px;
+    text-align: center;
+}
+.content_2 ul li ul li:nth-last-child(-n+5){
+    width: 150px;
+    line-height: 60px;
+    text-align: center;
+}
+.content_2 ul li ul li img{
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+}
+.content_2 ul li ul li:nth-child(1) span{
+    width: 150px;
+}
+.content_2_in_delete{
+    margin:10px 50px;
+}
+.num{
+    width: 76px;
+    height: 30px;
+    margin: 20px auto 70px;
+}
+.numl,.numr,.numm{
+    position: relative;
+    width: 20px;
+    height: 30px;
+    border: 1px solid #000;
+}
+.numl,.numm{
+    border-right: none;
+}
+.numm{
+    width: 30px;
+}
+.numl span,.numr span{
+    position: absolute;
+    left: 5px;
+    top: -15px;
+}
+.numm span{
+    position: absolute;
+    left: 10px;
+    top: -15px;
+}
+/*content_2通用部分end*/
+.footer{
+    height: 80px;
+    line-height: 80px;
+    background: #eeeeee;
+}
+.footer_l,.footer_r{
+    width: 50%;
+}
+.footer_r button{
+    display: inline-block;
+    height: 80px;
+    width: 120px;
+    font-size: 18px;
+    background: lightskyblue;
+}
+.footer_r span:nth-child(2){
+    margin-right: 145px;
+}
+.footer_l span:nth-child(3){
+    cursor:pointer;
+}
+.footer_l label,.footer_l span,.footer_r span{
+    margin-right: 15px;
+}
